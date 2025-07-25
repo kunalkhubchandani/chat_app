@@ -17,6 +17,8 @@ expo-env.d.ts
 *.p12
 *.key
 *.mobileprovision
+android/
+ios/
 
 # Metro
 .metro-health-check*
@@ -36,4 +38,15 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
+# Babel
+.babelrc
+
+# Hermes
+*.hbc
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+
+# Example app (if present)
 app-example
