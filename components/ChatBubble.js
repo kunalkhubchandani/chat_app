@@ -42,21 +42,21 @@ const styles = StyleSheet.create({
     borderRadius: 12,
   },
   selfBubble: {
-    backgroundColor: '#007AFF', // blue
+    backgroundColor: '#007AFF', 
     borderTopRightRadius: 0,
   },
   otherBubble: {
-    backgroundColor: '#FFFFFF', // pure white for receiver
+    backgroundColor: '#FFFFFF', 
     borderTopLeftRadius: 0,
   },
   text: {
     fontSize: 15,
   },
   selfText: {
-    color: '#FFFFFF', // white text for sender
+    color: '#FFFFFF', 
   },
   otherText: {
-    color: '#000000', // black text for receiver
+    color: '#000000', 
   },
 });
 
